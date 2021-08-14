@@ -21,7 +21,7 @@ async def verify_user_agent(request: Request, call_next):
         }, status_code=401)
 
 
-@ app.get('/')
+@app.get('/')
 def index(request: Request, response: Response):
     response.set_cookie(key="mykey", value="Hola")
     return {'message': 'ok'}
