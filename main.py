@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Request
 from starlette.responses import JSONResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
